@@ -68,7 +68,7 @@ export function createMap(option: mapOptions) {
         layers: option.layers,
         view: new View({
             center: fromLonLat(option.coordinate ? option.coordinate : [104.0991993310, 30.38086606300002]),
-            zoom: 10.3,
+            zoom: 8.3,
         }),
         controls: [],
         interactions: defaults({
